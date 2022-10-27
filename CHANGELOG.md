@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## 3.1.0
+
+_This version is not available on cocoapod as it only adds support for SPM._
+
+ * Added SPM support.
+
 ## 3.0.0
 
  * Bumps required Batch version to 1.19.0.
