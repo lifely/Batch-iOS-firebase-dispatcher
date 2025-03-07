@@ -22,7 +22,7 @@ NSString* const BatchFirebaseWebViewAnalyticsId = @"batch_webview_analytics_id";
 @implementation BatchFirebaseDispatcher
 
 + (void)load {
-    [BatchEventDispatcher addDispatcher:[self instance]];
+//   [BatchEventDispatcher addDispatcher:[self instance]];
 }
 
 + (instancetype)instance
