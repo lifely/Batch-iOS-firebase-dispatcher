@@ -1,12 +1,21 @@
 {
   "pins" : [
     {
-      "identity" : "abseil-cpp-swiftpm",
+      "identity" : "abseil-cpp-binary",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/firebase/abseil-cpp-SwiftPM.git",
+      "location" : "https://github.com/google/abseil-cpp-binary.git",
       "state" : {
-        "revision" : "fffc3c2729be5747390ad02d5100291a0d9ad26a",
-        "version" : "0.20200225.4"
+        "revision" : "bbe8b69694d7873315fd3a4ad41efe043e1c07c5",
+        "version" : "1.2024072200.0"
+      }
+    },
+    {
+      "identity" : "app-check",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/google/app-check.git",
+      "state" : {
+        "revision" : "61b85103a1aeed8218f17c794687781505fbbef5",
+        "version" : "11.2.0"
       }
     },
     {
@@ -14,17 +23,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/BatchLabs/Batch-iOS-SDK",
       "state" : {
-        "revision" : "72ab052438d8eae2eb822d0442ea9c1c2e9f9701",
-        "version" : "2.0.2"
-      }
-    },
-    {
-      "identity" : "boringssl-swiftpm",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/firebase/boringssl-SwiftPM.git",
-      "state" : {
-        "revision" : "734a8247442fde37df4364c21f6a0085b6a36728",
-        "version" : "0.7.2"
+        "revision" : "4c6c2b321d65eebd2df6f048395b2f3168ec24b2",
+        "version" : "3.0.1"
       }
     },
     {
@@ -32,8 +32,17 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/firebase/firebase-ios-sdk",
       "state" : {
-        "revision" : "08686f04881483d2bc098b2696e674c0ba135e47",
-        "version" : "8.10.0"
+        "revision" : "4e62da1e5e6baf61674d3f5ae23d6d60c19f9c4a",
+        "version" : "12.0.0"
+      }
+    },
+    {
+      "identity" : "google-ads-on-device-conversion-ios-sdk",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/googleads/google-ads-on-device-conversion-ios-sdk",
+      "state" : {
+        "revision" : "428d8bb138e00f9a3f4f61cc6cd8863607524f65",
+        "version" : "2.1.0"
       }
     },
     {
@@ -41,8 +50,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/google/GoogleAppMeasurement.git",
       "state" : {
-        "revision" : "9b2f6aca5b4685c45f9f5481f19bee8e7982c538",
-        "version" : "8.9.1"
+        "revision" : "63c18311aac00032f15f5ce431c9e83ada96c386",
+        "version" : "12.0.0"
       }
     },
     {
@@ -50,8 +59,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/google/GoogleDataTransport.git",
       "state" : {
-        "revision" : "5056b15c5acbb90cd214fe4d6138bdf5a740e5a8",
-        "version" : "9.2.0"
+        "revision" : "617af071af9aa1d6a091d59a202910ac482128f9",
+        "version" : "10.1.0"
       }
     },
     {
@@ -59,17 +68,17 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/google/GoogleUtilities.git",
       "state" : {
-        "revision" : "57a1d307f42df690fdef2637f3e5b776da02aad6",
-        "version" : "7.13.3"
+        "revision" : "60da361632d0de02786f709bdc0c4df340f7613e",
+        "version" : "8.1.0"
       }
     },
     {
-      "identity" : "grpc-swiftpm",
+      "identity" : "grpc-binary",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/firebase/grpc-SwiftPM.git",
+      "location" : "https://github.com/google/grpc-binary.git",
       "state" : {
-        "revision" : "fb405dd2c7901485f7e158b24e3a0a47e4efd8b5",
-        "version" : "1.28.4"
+        "revision" : "cc0001a0cf963aa40501d9c2b181e7fc9fd8ec71",
+        "version" : "1.69.0"
       }
     },
     {
@@ -77,8 +86,17 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/google/gtm-session-fetcher.git",
       "state" : {
-        "revision" : "4e9bbf2808b8fee444e84a48f5f3c12641987d3e",
-        "version" : "1.7.2"
+        "revision" : "fb7f2740b1570d2f7599c6bb9531bf4fad6974b7",
+        "version" : "5.0.0"
+      }
+    },
+    {
+      "identity" : "interop-ios-for-google-sdks",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/google/interop-ios-for-google-sdks.git",
+      "state" : {
+        "revision" : "040d087ac2267d2ddd4cca36c757d1c6a05fdbfe",
+        "version" : "101.0.0"
       }
     },
     {
@@ -86,8 +104,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/firebase/leveldb.git",
       "state" : {
-        "revision" : "0706abcc6b0bd9cedfbb015ba840e4a780b5159b",
-        "version" : "1.22.2"
+        "revision" : "a0bc79961d7be727d258d33d5a6b2f1023270ba1",
+        "version" : "1.22.5"
       }
     },
     {
@@ -95,8 +113,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/firebase/nanopb.git",
       "state" : {
-        "revision" : "7ee9ef9f627d85cbe1b8c4f49a3ed26eed216c77",
-        "version" : "2.30908.0"
+        "revision" : "b7e1104502eca3a213b46303391ca4d3bc8ddec1",
+        "version" : "2.30910.0"
       }
     },
     {
